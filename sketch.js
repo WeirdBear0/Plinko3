@@ -112,6 +112,22 @@ function draw() {
     // console.log(xPosText[0] + 65);
 
     // if (particles[0].x > xPosText - 15 && Particle.x)
+  
+      if (particles[0].position.x > xPosText[0] - 15 && particles[0].position.x < xPosText[0] + 65){
+      console.log("score");
+    }
+    if (particles[1].position.x > xPosText[0] - 15 && particles[1].position.x < xPosText[0] + 65){
+      console.log("score");
+    }
+    if (particles[2].position.x > xPosText[0] - 15 && particles[2].position.x < xPosText[0] + 65){
+      console.log("score");
+    }
+    if (particles[3].position.x > xPosText[0] - 15 && particles[3].position.x < xPosText[0] + 65){
+      console.log("score");
+    }
+    if (particles[4].position.x > xPosText[0] - 15 && particles[4].position.x < xPosText[0] + 65){
+      console.log("score");
+    }
 
 
 
